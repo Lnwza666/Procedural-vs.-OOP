@@ -90,7 +90,7 @@ class Customer:
     def get_address(self):
         return self.__address
 
-my_Customer = Customer("Mink", "sangsureechaimink@gmail.com", "Nakhon Pathom")
+my_Customer = Customer("Pim", "sarutayanun_t@silpakorn.edu", "Nakhon Pathom")
 my_OnlineShop = OnlineShop("ECS Store", "https://ee-eng.su.ac.th")
 
 my_Product1 = Product("Wireless Mouse", "A smooth and silent wireless mouse", 790, my_OnlineShop)
@@ -107,4 +107,5 @@ my_OnlineShop.addingItemsToCart(my_Customer, my_Product4, 2)
 my_OnlineShop.checkOut(my_Customer)
 
 my_OnlineShop.orderTracking(my_Customer, 0)
+
 my_OnlineShop.orderTracking(my_Customer, 1)
